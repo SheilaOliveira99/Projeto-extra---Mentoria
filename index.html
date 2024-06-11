@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mentoria</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page">
+    <header>
+      <h1> MENTORIA </h1> 
+      <p> Preencha o formulário abaixo para <br> agendar a sua mentoria </p>
+    </header>
+  
+    <form id="my-form"> 
+
+      <fieldset id="input-wrapper">
+          <div class="fieldset=wrapper">
+            <legend>INFORMAÇÕES PESSOAIS</legend>
+          </div>
+
+        <hr />
+
+          <div>
+            <div class="input-group namesurname">
+              <div class="input-wrapper name">
+                <label for="name">Nome</label>
+                <input id="name" type="text">
+              </div>
+
+              <div class="input-wrapper surname">
+                <label for="surname"> Sobrenome </label>
+                <input id="surname" type="text">
+              </div>
+            </div>
+
+          <div class="input-wrapper">
+          
+          <div class="input-wrapper">
+            <label for="event-email">Email 
+              <span>(digite um email válido)</span>
+            </label>
+
+            <input type="email" id="event-email">
+          </div>
+          
+          <div class="input-wrapper">
+            <label for="event-password">Senha
+              <span>(minímo de 6 caracteres)</span> </label>
+            <input type="password" id="event-password">
+          </div>
+      </fieldset>
+
+      <fieldset id="InfdoMentor">
+        <div class="fieldset-wrapper">
+          <legend>INFORMAÇÕES DO MENTOR</legend>
+        </div> 
+
+        <hr />
+
+
+        <div class="input-wrapper">
+          <label for="event-text">Nome do seu mentoria
+          <span>(só o primeiro nome)</span> </label>
+          <input type="text" id="event-text">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Seus horários disponíveis</legend>
+  
+        <hr />
+
+      </fieldset>
+
+      <!-- PRIMEIRA MENTORIA -->
+
+      <legend class="legend-primeiramentoria">Primeira Mentoria</legend>
+
+        <div class="input-group">
+
+          <div class="input-wrapper date">
+            <label for="begin-date">
+              Data <span>(DD/MM/AAAA)</span>
+            </label>
+
+            <input id="begin-date" type="date">
+          </div>
+
+          <div class="input-wrapper das">
+            <label for="time-start">
+              Das
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+          <div class="input-wrapper ate">
+
+            <label for="time-start">
+              Até
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+        </div>
+
+        <!-- SEGUNDA MENTORIA -->
+
+        <legend class="legend-segundamentoria">Segunda Mentoria</legend>
+
+        <div class="input-group">
+
+          <div class="input-wrapper date">
+            <label for="begin-date">
+              Data <span>(DD/MM/AAAA)</span>
+            </label>
+            <input id="begin-date" type="date">
+          
+          </div>
+
+          <div class="input-wrapper das">
+            <label for="time-start">
+              Das
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+          <div class="input-wrapper ate">
+
+            <label for="time-start">
+              Até
+            </label>
+
+            <input id="time-start" type="time">
+          </div>
+        </div>
+
+      </form>
+    </div>
+
+    <footer>
+      <div class="button">
+      <legend>
+        SALVAR
+      </legend>
+      </div>
+    </footer>
+
+</body>
+</html>
