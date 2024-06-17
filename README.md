@@ -2,7 +2,7 @@
 
 > Desafio proposto no Stage 03 do Explorer da Rocketseat
 
-![Screenshot](./.github/preview.jpg)
+<img src="/Projeto-extra---Mentoria/foto/Projeto-mentoria.png">
 
 # Instrutores
 
